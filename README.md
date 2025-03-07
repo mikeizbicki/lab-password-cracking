@@ -197,6 +197,14 @@ adultery is a [felony offense](https://militarybenefits.info/ucmj-adultery/) for
        > You should use a `try`/`except` clause to determine whether the zip file opened,
        > and perform different operations based on whether the file opened or not.
 
+       > **HINT:**
+       > There are many passwords in the `Ashley-Madison.txt` file.
+       > Trying all possible passwords will take a long time (5-10 minutes).
+       > You should print some debugging information every 10000 iterations of the for loop so that you can verify that your program is making progress.
+       > In my solution, I print the current iteration number and the current password.
+       > Since the passwords are ordered ASCIIbetically,
+       > you can get a sense of when your program will be finished by seeing how close your current password is to the end of the alphabet.
+
        Once the file is successfully decrypted,
        you should have a new file `whitehouse_secrets/secrets.txt` that contains President Obama's secrets.
 
