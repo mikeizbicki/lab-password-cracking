@@ -1,5 +1,7 @@
 # Lab: Password Cracking
 
+<img align=right src=img/black-hackerman.webp width=250px />
+
 Recall that in computer science,
 "hacking" is a good thing.
 It is the process of building cool stuff.
@@ -9,8 +11,6 @@ Cracking is the process of breaking stuff.
 In this lab, you'll get your first taste of cracking.
 You'll learn how to crack the passwords of encrypted zip files using python,
 and see that the basic tools for cracking are the same as the basic tools for hacking.
-
-<img src=img/black-hackerman.webp width=250px />
 
 You will also review:
 1. creating your own meaningful python programs from scratch
